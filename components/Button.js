@@ -1,11 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Button = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const Button = ({ callback }) => {
+  return <button onClick={callback}>Start</button>;
+};
 
-export default Button
+export default Button;
